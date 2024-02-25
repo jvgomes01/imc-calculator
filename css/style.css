@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-width: 100vh;
+    font-family:sans-serif;
+    background: rgb(0, 6, 39);
+}
+
+
+#main-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding-top: 10%;
+}
+
+
+#form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 0 auto;
+    height: 400px;
+    padding: 3rem;
+    background-color: rgb(61, 66, 83);
+    color: white;
+}
+
+#form h1 {
+    display: flex;
+    font-size: 20px;
+    text-align: center;
+    justify-content: center;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+
+#form label {
+    font-size: 1rem;
+    font-weight: 900;
+    text-align: start;
+    padding-top: 1rem;
+}
+
+#form input{
+    padding: 1rem;
+}
+
+#btn-cont {
+    padding-top: 3rem;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+#limpar,
+#calcular {
+    padding: 1rem;
+    width: 12rem;
+}
+
+#limpar {
+    background: gray;
+    color: aliceblue;
+    border: 1px solid rgba(128, 128, 128, 0.226);
+}
+
+#calcular {
+    background: rgb(141, 20, 20);
+    color: aliceblue;
+    border: 1px solid rgba(141, 20, 20, 0.5);
+}
+
+#limpar:hover {
+    background: rgba(128, 128, 128, 0);
+}
+
+#calcular:hover {
+    background: rgba(128, 128, 128, 0);
+}
